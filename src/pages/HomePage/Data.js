@@ -1,0 +1,47 @@
+export const aboutObject = {
+    id: 'home',
+    lightBG: false,
+    imgStart: '',
+    lightTopLine: true,
+    topLine: 'AutoPeko.sk',
+    lightText: true, 
+    headLine: 'Autoservis v Námestove', 
+    lightTextDesc: true,
+    description: `Lorum ipsum už od roku 20xx. Lorum ipsum už od roku 20xx. Lorum ipsum už od roku 20xx. Lorum ipsum už od roku 20xx. Lorum ipsum už od roku 20xx. Lorum ipsum už od roku 20xx. Lorum ipsum už od roku 20xx.`, 
+    primary: true, 
+    buttonLabel: 'Zobraziť Ponuku',
+    img: require('../../images/background.png').default,
+    alt: 'AutoPeko.sk',
+}
+
+export const aboutUsObject = {
+    id: 'about',
+    lightBG: true,
+    imgStart: 'start',
+    lightTopLine: false,
+    topLine: 'O Nás',
+    lightText: false, 
+    headLine: 'AutoPeko', 
+    lightTextDesc: false,
+    description: `O Nás, lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium. lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium. lorem ipsum falsi kristium, lorem ipsum falsi kristium, lorem ipsum falsi kristium.`, 
+    primary: false, 
+    buttonLabel: 'Learn More',
+    img: require('../../images/logo512.png').default,
+    alt: 'image',
+}
+
+export const mapSection = {
+    id: 'map',
+    lightBG: false,
+    imgStart: '',
+    lightTopLine: true,
+    topLine: 'Mapa',
+    lightText: true, 
+    headLine: 'Where You Can Find Us', 
+    lightTextDesc: true,
+    description: `Find us at our location in Námestovo. We are here to provide top-notch service for your vehicle needs.`,
+    primary: true, 
+    buttonLabel: '',
+    img: null,
+    alt: '',
+};
