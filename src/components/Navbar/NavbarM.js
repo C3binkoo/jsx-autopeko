@@ -1,21 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes, FaBars } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { Button } from '../../globalStyles';
 import { 
     Nav, 
     NavContainer, 
     NavLogo, 
-    NavIcon,
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLink,
-    NavItemBtn,
+    NavLink,  // Use NavLink for internal page anchors
     NavBtnLink 
-} from './Navbar.element';
+} from './NavbarM.element';
 import logo from '../../images/logo512.png';  // Import the logo image
 
-const Navbar = () => {
+const NavbarM = () => {
     const [click, setClick] = useState(false);
     const [buttonLabelSm, setButtonLabelSm] = useState(true);
 
@@ -50,32 +49,17 @@ const Navbar = () => {
                     </MobileIcon>
                     <NavMenu click={click}>
                         <NavItem>
-                            <NavLink to='home' onClick={handleClick} smooth={true} offset={-80} duration={500}>
+                            <NavBtnLink to='/' onClick={handleClick}>
                                 DOMOV
-                            </NavLink>
+                            </NavBtnLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='about' onClick={handleClick} smooth={true} offset={-80} duration={500}>
-                                O NÁS
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to='offers' onClick={handleClick} smooth={true} offset={-80} duration={500}>
-                                SLUŽBY
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink to='map' onClick={handleClick} smooth={true} offset={-80} duration={500}>
-                                MAPA
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavBtnLink to='/contact' onClick={handleClick} smooth={true} offset={-80} duration={500}>
+                            <NavBtnLink to='/contact' onClick={handleClick}>
                                 KONTAKT
                             </NavBtnLink>
                         </NavItem>
                         <NavItem>
-                            <NavBtnLink to='/gallery' onClick={handleClick} smooth={true} offset={-80} duration={500}>
+                            <NavBtnLink to='/gallery' onClick={handleClick}>
                                 GALÉRIA
                             </NavBtnLink>
                         </NavItem>
@@ -86,4 +70,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default NavbarM;

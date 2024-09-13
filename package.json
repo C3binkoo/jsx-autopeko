@@ -3,23 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.8.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "eslint": "^9.10.0",
+    "express": "^4.20.0",
+    "fullpage.js": "^4.0.29",
+    "nodemailer": "^6.9.15",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-fullpage": "^0.1.19",
     "react-icons": "^4.2.0",
+    "react-images-viewer": "^1.7.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.2",
-    "react-scroll": "^1.8.2",
+    "react-scroll": "^1.9.0",
     "styled-components": "^5.2.1",
+    "vite": "^5.4.5",
+    "vite-plugin-eslint": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "browserslist": {
     "production": [

@@ -1,19 +1,21 @@
-import { FaUniversity } from 'react-icons/fa';
+import { FaCar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import { Link as SLink } from 'react-scroll';
 
 export const FooterContainer = styled.div`
-    background: #161921;
+    background: rgb(238,238,238);
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 100%);
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #262a33;
+    border-bottom: 1px solid #b6b6b6;
 `;
 
 export const FooterSubscription = styled.section`
-    color: #fff;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,14 +27,14 @@ export const FooterSubscription = styled.section`
 `;
 
 export const FooterSubHeading = styled.p`
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Sans-Serif;
     font-size: 24px;
     margin-bottom: 10px;
 `;
 
 export const FooterSubText = styled.small`
     font-size: 16px;
-    color: darkgrey;
+    color: black;
     margin-bottom: 15px;
 `;
 
@@ -59,7 +61,7 @@ export const FormInput = styled.input`
     flex-grow: 1;
 
     &::placeholder {
-        color: #242424;
+        color: black;
     }
 
     @media screen and (max-width: 900px) {
@@ -90,7 +92,7 @@ export const FooterLinkWrapper = styled.div`
 `;
 
 export const FooterLinkItem = styled.div`
-    color: #fff;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,15 +111,12 @@ export const FooterLinkTitle = styled.h2`
     margin-bottom: 16px;
 `;
 
-export const FooterLink = styled(Link)`
-    color: #fff;
+export const FooterLink = styled(SLink)`
+    color: black;
     text-decoration: none;
     margin-bottom: 0.5rem;
-
-    &:hover {
-        color: #4b59f7;
-        transition: 0.3s ease-out;
-    }
+    cursor: pointer;
+    font-weight: 400;
 `;
 
 export const SocialMediaContainer = styled.section`
@@ -126,7 +125,8 @@ export const SocialMediaContainer = styled.section`
 
 export const SocialMediaWrap = styled.section`
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 90%;
     margin: 32px auto 0 auto;
@@ -137,7 +137,7 @@ export const SocialMediaWrap = styled.section`
 `;
 
 export const BrandLogo = styled(Link)`
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-self: start;
@@ -147,12 +147,12 @@ export const BrandLogo = styled(Link)`
     margin-bottom: 16px;
 
     &:hover {
-        transition: all 0.3s ease-out;
-        color: #4b59f7;
+        transition: all 0.1s ease-out;
+        color: gray;
     }
 `;
 
-export const WebsiteIcon = styled(FaUniversity)`
+export const WebsiteIcon = styled(FaCar)`
     margin-right: 10px;
 `;
 
@@ -177,7 +177,7 @@ export const SocialMediaLink = styled.a`
     font-size: 24px;
 
     &:hover {
-        transition: all 0.3s ease-out;
+        transition: all 0.1s ease-out;
         color: #4b59f7;
     }
 `;

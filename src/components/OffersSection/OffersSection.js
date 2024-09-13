@@ -18,21 +18,21 @@ const OffersSection = () => {
         <Section>
             <Container id="offers">
                 <Heading>
-                    Naša Ponuka
+                    Služby
                 </Heading>
                 <CardWrapper>
                     <Card>
                         <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
-                                Oprava Vozidla
+                                Pneuservis
                             </CardTitle>
                             <CardDesc>
-                                Text pôjde tu. Zatiaľ som tu nič nevypisoval.
+                                Popis pôjde tu.
                             </CardDesc>
                             <Link to='/contact'>
                                 <Button fullWidth primary="primary">
-                                    Zkontaktovať ohladom opravy.
+                                    Zkontaktovať
                                 </Button>
                             </Link>
                         </TextWrapper>
@@ -41,14 +41,14 @@ const OffersSection = () => {
                         <CardImage src={require('../../images/background.png').default} alt="Car Detailing" />
                         <TextWrapper>
                             <CardTitle>
-                                Detailing Vozidla
+                                Výmena Oleja v Motore
                             </CardTitle>
                             <CardDesc>
-                            Text pôjde tu. Zatiaľ som tu nič nevypisoval.
+                            Popis pôjde tu.
                             </CardDesc>
                             <Link to='/contact'>
                                 <Button fullWidth primary="primary">
-                                    Zkontaktovať ohladom detailingu.
+                                    Zkontaktovať
                                 </Button>
                             </Link>
                         </TextWrapper>
@@ -57,14 +57,110 @@ const OffersSection = () => {
                         <CardImage src={require('../../images/background.png').default} alt="Tire Service" />
                         <TextWrapper>
                             <CardTitle>
-                                Výmena Pneumatík
+                                Výmena Bŕzd
                             </CardTitle>
                             <CardDesc>
-                            Text pôjde tu. Zatiaľ som tu nič nevypisoval.
+                            Popis pôjde tu. 
                             </CardDesc>
                             <Link to='/contact'>
                                 <Button fullWidth primary="primary">
-                                Zkontaktovať ohľadom výmeny pneumatík.
+                                Zkontaktovať
+                                </Button>
+                            </Link>
+                        </TextWrapper>
+                    </Card>
+                    <Card>
+                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <TextWrapper>
+                            <CardTitle>
+                                Príprava pred STK
+                            </CardTitle>
+                            <CardDesc>
+                                Popis pôjde tu.
+                            </CardDesc>
+                            <Link to='/contact'>
+                                <Button fullWidth primary="primary">
+                                    Zkontaktovať 
+                                </Button>
+                            </Link>
+                        </TextWrapper>
+                    </Card>
+                    <Card>
+                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <TextWrapper>
+                            <CardTitle>
+                                Prezúvanie pneumatik
+                            </CardTitle>
+                            <CardDesc>
+                                Popis pôjde tu.
+                            </CardDesc>
+                            <Link to='/contact'>
+                                <Button fullWidth primary="primary">
+                                    Zkontaktovať 
+                                </Button>
+                            </Link>
+                        </TextWrapper>
+                    </Card>
+                    <Card>
+                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <TextWrapper>
+                            <CardTitle>
+                                Vyvaženie Pneumatik
+                            </CardTitle>
+                            <CardDesc>
+                                Popis pôjde tu.
+                            </CardDesc>
+                            <Link to='/contact'>
+                                <Button fullWidth primary="primary">
+                                    Zkontaktovať 
+                                </Button>
+                            </Link>
+                        </TextWrapper>
+                    </Card>
+                    <Card>
+                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <TextWrapper>
+                            <CardTitle>
+                                Opravy podvozku
+                            </CardTitle>
+                            <CardDesc>
+                                Popis pôjde tu.
+                            </CardDesc>
+                            <Link to='/contact'>
+                                <Button fullWidth primary="primary">
+                                    Zkontaktovať 
+                                </Button>
+                            </Link>
+                        </TextWrapper>
+                    </Card>
+                    <Card>
+                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <TextWrapper>
+                            <CardTitle>
+                                Diagnostika Vozidiel
+                            </CardTitle>
+                            <CardDesc>
+                                Popis pôjde tu.
+                            </CardDesc>
+                            <Link to='/contact'>
+                                <Button fullWidth primary="primary">
+                                    Zkontaktovať 
+                                </Button>
+                            </Link>
+                        </TextWrapper>
+                    </Card>
+                    <Card>
+                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <TextWrapper>
+                            <CardTitle>
+                                Predaj pneumatík a dielov
+                            </CardTitle>
+                            <CardDesc>
+                                Popis pôjde tu.
+                            </CardDesc>
+                            <Link to='/contact'>
+                                <Button fullWidth primary="primary">
+                                    Zkontaktovať 
                                 </Button>
                             </Link>
                         </TextWrapper>

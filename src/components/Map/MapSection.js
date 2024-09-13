@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, MapHeading, MapIframe } from './MapSection.element'; // Update the path as needed
+import { MapContainer, MapHeading, MapIframe } from './MapSection.element';
 
 const MapSection = () => {
     return (

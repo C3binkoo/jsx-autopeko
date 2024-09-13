@@ -1,0 +1,23 @@
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(238,238,238);
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 100%);
+    color: gray;
+    height: auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Make it not clickable when hidden */
+    transition: opacity 0.4s ease, visibility 0.4s ease; /* Smooth transition */
+}
+
+.back-to-top.visible {
+    opacity: 1; /* Fade in */
+    visibility: visible; /* Make it clickable */
+}

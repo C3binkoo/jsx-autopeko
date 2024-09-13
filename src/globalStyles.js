@@ -1,22 +1,22 @@
-import styled, {createGlobalStyle} from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: "SUSE", sans-serif;
+        font-family: Inria Sans;
         font-weight: 600;
+        font-style: normal;
     }
 
-    html {
-        width: 100%;
+    html, body {
+        height: 100%;
+        scroll-behavior: smooth;  /* Smooth scrolling */
     }
 
-    body {
-        width: 100%;
-        overflow-x: hidden;
-        scroll-behavior: smooth;
+    #root {
+        height: 100%;
     }
 `;
 
@@ -34,44 +34,42 @@ export const Container = styled.div`
     }
 `;
 
-
 export const StyledImage = styled.img`
-    width: 100%;   /* Adjust width as needed */
-    height: auto;   /* Keep aspect ratio */
-    border-radius: 10px;  /* Optional: Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
-    object-fit: cover; /* Ensure image covers its container */
-    border: 2px solid #fff;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+-moz-box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+    object-fit: cover;
+    border: 1px solid silver;
 `;
 
 export const Button = styled.button`
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "SUSE";
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-  transition: all 250ms;
-  border: 1px solid gray;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  background: ${({primary}) => (primary ? '#161921' : '#161921')};
-  font-size: ${({fontBig}) => (fontBig ? '22px' : '16px')};
-  padding: ${({big}) => (big ? '10px 20px' : '10px 20px')};
-  width: ${({fullWidth}) => (fullWidth ? '100%' : '')};
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 1px solid silver;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    -webkit-box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+-moz-box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+    background: rgb(238,238,238);
+    background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 100%);
+    font-size: ${({fontBig}) => (fontBig ? '19px' : '19px')};
+    padding: ${({big}) => (big ? '10px 20px' : '10px 20px')};
+    width: ${({fullWidth}) => (fullWidth ? '100%' : '')};
     
-
     &:hover {
-        box-shadow: rgba(45, 89, 115,.35) 0 -25px 18px -14px inset,rgba(45, 89, 115,.25) 0 1px 2px,rgba(45, 89, 115,.25) 0 2px 4px,rgba(45, 89, 115,.25) 0 4px 8px,rgba(45, 89, 115,.25) 0 8px 16px,rgba(45, 89, 115,.25) 0 16px 32px;
-        transform: scale(1.05) rotate(-0.5deg);
-        transition: all 0.5s ease-out;
-        color: silver;
-        background: ${({primary}) => (primary ? '#161921' : '#161921')};
-        font-weight: 600;
+        transform: scale(1.02);
+        transition: all 0.5s ease-in;
+        color: gray;
     }
 
     @media screen and (max-width: 900px) {
@@ -81,4 +79,5 @@ export const Button = styled.button`
     }
 `;
 
-export default GlobalStyle
+
+export default GlobalStyle;

@@ -1,0 +1,40 @@
+/* src/pages/GalleryPage/GalleryViewer.css */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    max-width: 1200px; /* Constrain width to look like a container */
+    width: 100%;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #fff; /* White border */
+    transition: all 250ms;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.05); /* Adjust scale to fit better */
+    transition: all 0.5s ease-in;
+    border: 2px solid black;
+  }
+  
+  /* Ensure images viewer CSS is specific enough */
+  .ReactImagesViewer__wrapper {
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Dark background */
+  }
+  
+  .ReactImagesViewer__image {
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  
+  .ReactImagesViewer__arrow {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Dark arrows */
+  }
+  
+  .ReactImagesViewer__arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Darker arrows on hover */
+  }
+  

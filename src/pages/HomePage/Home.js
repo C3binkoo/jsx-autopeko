@@ -1,5 +1,5 @@
-import React from 'react'
-import { aboutObject, aboutUsObject, mapSection } from './Data'; 
+import React from 'react';
+import { aboutObject, aboutUsObject } from './Data'; 
 import { OffersSection, InfoSection, Navbar, MapSection } from '../../components';
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
             <OffersSection />
             <MapSection />
         </>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

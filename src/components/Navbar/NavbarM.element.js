@@ -124,7 +124,7 @@ export const NavBtnLink = styled(Link)`
     cursor: pointer;
     font-weight: 600;
 
-    @media screen and (max-width: 900px) { 
+    @media screen and (max-width: 900px) {   
         padding: 2rem;
 
         &:hover{
