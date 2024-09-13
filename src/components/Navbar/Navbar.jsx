@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes, FaBars } from 'react-icons/fa';
-import { Button } from '../../globalStyles';
 import { 
     Nav, 
     NavContainer, 
     NavLogo, 
-    NavIcon,
     MobileIcon,
     NavMenu,
     NavItem,
     NavLink,
-    NavItemBtn,
     NavBtnLink 
 } from './Navbar.element';
 import logo from '../../images/logo512.png';  // Import the logo image
