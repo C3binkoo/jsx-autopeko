@@ -10,7 +10,7 @@ import {
     NavLink,
     NavBtnLink 
 } from './Navbar.element';
-import logo from '../../images/logo512.png';  // Import the logo image
+import logo from '../../images/logo512.png';
 
 const Navbar = () => {
     const [click, setClick] = useState(false);

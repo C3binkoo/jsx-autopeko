@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavbarM from '../../components/Navbar/NavbarM';
 import ImagesViewer from 'react-images-viewer';
-import './GalleryViewer.css'; // Ensure correct path
+import './GalleryViewer.css';
 
 const GalleryPage = () => {
   const [isViewerOpen, setIsViewerOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaTimes, FaBars } from 'react-icons/fa';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import { Button } from '../../globalStyles';
 import { 
     Nav, 
@@ -9,10 +9,10 @@ import {
     MobileIcon,
     NavMenu,
     NavItem,
-    NavLink,  // Use NavLink for internal page anchors
+    NavLink,
     NavBtnLink 
 } from './NavbarM.element';
-import logo from '../../images/logo512.png';  // Import the logo image
+import logo from '../../images/logo512.png';  
 
 const NavbarM = () => {
     const [click, setClick] = useState(false);
