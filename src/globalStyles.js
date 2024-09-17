@@ -5,8 +5,8 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: Inria Sans;
-        font-weight: 600;
+        font-family: 'SUSE';
+        font-weight: 700;
         font-style: normal;
     }
 
@@ -31,6 +31,7 @@ export const Container = styled.div`
     @media screen and (max-width: 900px) {
         padding-left: 30px;
         padding-right: 30px;
+        height: 500px;
     }
 `;
 
@@ -43,6 +44,14 @@ export const StyledImage = styled.img`
 box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
     object-fit: cover;
     border: 1px solid silver;
+    &:hover {
+      border-bottom: 1px solid red;
+      transition: all 50ms;
+      transform: scale(1.05);
+      -webkit-box-shadow: 0px 0px 34px -6px rgba(133,213,121,0.5);
+     -moz-box-shadow: 0px 0px 34px -6px rgba(133,213,121,0.5);
+     box-shadow: 0px 0px 34px -6px rgba(133,213,121,0.5);
+    }
 `;
 
 export const Button = styled.button`
@@ -68,8 +77,10 @@ box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
     
     &:hover {
         transform: scale(1.02);
-        transition: all 0.5s ease-in;
-        color: gray;
+        transition: all 0.1s ease-in;
+        -webkit-box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+-moz-box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
+box-shadow: 0px 0px 34px -6px rgba(173,171,173,1);
     }
 
     @media screen and (max-width: 900px) {

@@ -1,5 +1,5 @@
 {
-  "name": "react-bussiness-website",
+  "name": "autopeko",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,18 +8,20 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.8.3",
     "@vitejs/plugin-react": "^4.3.1",
+    "ajv": "^8.17.1",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "eslint": "^9.10.0",
     "express": "^4.20.0",
     "fullpage.js": "^4.0.29",
     "nodemailer": "^6.9.15",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-fullpage": "^0.1.19",
     "react-icons": "^4.2.0",
     "react-images-viewer": "^1.7.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "styled-components": "^5.2.1",
     "vite": "^5.4.5",
@@ -27,9 +29,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [

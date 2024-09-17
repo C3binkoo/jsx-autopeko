@@ -67,7 +67,6 @@ export const ImageColumn = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    
 `;
 
 export const Img = styled.img`
@@ -87,7 +86,7 @@ export const LinkMain = styled(SLink)`
     cursor: pointer;
 
     @media screen and (max-width: 900px) {   
-        padding: 2rem;
+        padding: 0rem;
 
         &:hover {
             color: #4b59f7;

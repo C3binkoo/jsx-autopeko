@@ -53,11 +53,13 @@ export const NavMenu = styled.ul`
 
     @media screen and (max-width: 900px) {
         flex-direction: column;
-        background: #101522;
+        background: rgb(238,238,238);
+        background: linear-gradient(90deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 50%, rgba(236,236,236,1) 100%);
         width: 100%;
-        height: calc(100vh - 80px);
+        margin-top: 150px;
+        height: calc(100vh - 100px);
         position: absolute;
-        top: 80px;
+        top: 120px;
         left: ${({ click }) => (click ? '0' : '-100%')};
         transition: all 0.5s ease;
     }
@@ -115,7 +117,7 @@ export const NavLink = styled(SLink)`
 `;
 
 export const NavBtnLink = styled(Link)`
-    color: gray;
+    color: black;
     text-decoration: none;
     padding: 0.5rem 1rem;
     width: 100%;
@@ -124,12 +126,13 @@ export const NavBtnLink = styled(Link)`
     cursor: pointer;
     font-weight: 600;
 
-    @media screen and (max-width: 900px) {   
+    @media screen and (max-width: 900px) { 
         padding: 2rem;
 
         &:hover{
             color: black;
-            transition: all 0.3s ease;
+            transition: all 0.1s ease;
+            transform: scale(1.05);
         }
         &:active{
             color: black;

@@ -15,9 +15,9 @@ const Footer = () => {
                 <FooterLinkWrapper>
                     <FooterLinkItem>
                         <FooterLinkTitle>Informácie o Webe</FooterLinkTitle>
-                        <FooterLink to='home' smooth={true} offset={-80} duration={500}>O Nás</FooterLink>
-                        <FooterLink to='map' smooth={true} offset={-80} duration={500}>Mapa</FooterLink>
-                        <FooterLink to='offers' smooth={true} offset={-80} duration={500}>Ponuka</FooterLink>
+                        <FooterLink to='home' smooth="true" offset={-80} duration={500}>O Nás</FooterLink>
+                        <FooterLink to='map' smooth="true" offset={-80} duration={500}>Mapa</FooterLink>
+                        <FooterLink to='offers' smooth="true" offset={-80} duration={500}>Ponuka</FooterLink>
                     </FooterLinkItem>
                     <FooterLinkItem>
                         <FooterLinkTitle>Kontaktné Informácie</FooterLinkTitle>

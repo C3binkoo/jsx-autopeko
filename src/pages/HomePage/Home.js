@@ -7,7 +7,6 @@ const Home = () => {
         <>
             <Navbar />
             <InfoSection {...aboutObject} />
-            <InfoSection {...aboutUsObject} />
             <OffersSection />
             <MapSection />
         </>

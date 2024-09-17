@@ -52,11 +52,6 @@ const Navbar = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='about' onClick={handleClick} smooth={true} offset={-80} duration={500}>
-                                O NÁS
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
                             <NavLink to='offers' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 SLUŽBY
                             </NavLink>
@@ -67,12 +62,12 @@ const Navbar = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavBtnLink to='/contact' onClick={handleClick} smooth={true} offset={-80} duration={500}>
+                            <NavBtnLink to='error' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 KONTAKT
                             </NavBtnLink>
                         </NavItem>
                         <NavItem>
-                            <NavBtnLink to='/gallery' onClick={handleClick} smooth={true} offset={-80} duration={500}>
+                            <NavBtnLink to='error' onClick={handleClick} smooth={true} offset={-80} duration={500}>
                                 GALÉRIA
                             </NavBtnLink>
                         </NavItem>

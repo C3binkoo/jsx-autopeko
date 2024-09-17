@@ -54,12 +54,12 @@ const NavbarM = () => {
                             </NavBtnLink>
                         </NavItem>
                         <NavItem>
-                            <NavBtnLink to='/contact' onClick={handleClick}>
+                            <NavBtnLink to='error' onClick={handleClick}>
                                 KONTAKT
                             </NavBtnLink>
                         </NavItem>
                         <NavItem>
-                            <NavBtnLink to='/gallery' onClick={handleClick}>
+                            <NavBtnLink to='error' onClick={handleClick}>
                                 GALÉRIA
                             </NavBtnLink>
                         </NavItem>

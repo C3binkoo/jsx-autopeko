@@ -15,12 +15,20 @@
     transition: all 250ms;
   }
   
+  .gallery h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
   .gallery img:hover {
     transform: scale(1.05); /* Adjust scale to fit better */
     transition: all 0.5s ease-in;
+
     border: 2px solid black;
   }
   
+
   /* Ensure images viewer CSS is specific enough */
   .ReactImagesViewer__wrapper {
     background-color: rgba(0, 0, 0, 0.8) !important; /* Dark background */

@@ -35,12 +35,14 @@ export const CardWrapper = styled.div`
     text-align: center;
 
     @media screen and (max-width: 1100px) {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr;
+        display: flex;
         grid-template-rows: auto;
     }
 
     @media screen and (max-width: 700px) {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
+        display: flex;
         grid-template-rows: auto;
     }
 `;

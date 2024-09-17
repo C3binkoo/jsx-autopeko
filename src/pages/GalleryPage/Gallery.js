@@ -36,6 +36,7 @@ const GalleryPage = () => {
       <NavbarM />
       <h1>Galéria</h1>
       <div className="gallery">
+        
         {images.map((src, index) => (
           <img
             key={index}

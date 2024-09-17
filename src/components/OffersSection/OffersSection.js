@@ -11,6 +11,7 @@ import {
     Section,
     TextWrapper
 } from './OffersSection.element';
+import logo from '../../images/background.png';
 
 const OffersSection = () => {
     return (
@@ -22,7 +23,7 @@ const OffersSection = () => {
                 </Heading>
                 <CardWrapper>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Pneuservis
@@ -38,7 +39,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Detailing" />
+                        <CardImage src={logo} alt="Car Detailing" />
                         <TextWrapper>
                             <CardTitle>
                                 Výmena Oleja v Motore
@@ -54,7 +55,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Tire Service" />
+                        <CardImage src={logo} alt="Tire Service" />
                         <TextWrapper>
                             <CardTitle>
                                 Výmena Bŕzd
@@ -70,7 +71,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Príprava pred STK
@@ -86,7 +87,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Prezúvanie pneumatik
@@ -102,7 +103,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Vyvaženie Pneumatik
@@ -118,7 +119,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Opravy podvozku
@@ -134,7 +135,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Diagnostika Vozidiel
@@ -150,7 +151,7 @@ const OffersSection = () => {
                         </TextWrapper>
                     </Card>
                     <Card>
-                        <CardImage src={require('../../images/background.png').default} alt="Car Repair" />
+                        <CardImage src={logo} alt="Car Repair" />
                         <TextWrapper>
                             <CardTitle>
                                 Predaj pneumatík a dielov

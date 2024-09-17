@@ -27,7 +27,7 @@ export const FooterSubscription = styled.section`
 `;
 
 export const FooterSubHeading = styled.p`
-    font-family: Helvetica, Sans-Serif;
+    font-family: 'SUSE';
     font-size: 24px;
     margin-bottom: 10px;
 `;
@@ -148,7 +148,7 @@ export const BrandLogo = styled(Link)`
 
     &:hover {
         transition: all 0.1s ease-out;
-        color: gray;
+        color: black;
     }
 `;
 
